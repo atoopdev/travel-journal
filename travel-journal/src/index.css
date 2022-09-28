@@ -5,3 +5,11 @@
 body{
   margin:0;
 }
+
+img{
+  max-width:100%;
+}
+
+.trip-image{
+  max-width: 250px;
+}
