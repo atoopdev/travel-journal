@@ -26,6 +26,10 @@ header{
   color:#FFFFFF;
 }
 
+.trip-listing{
+  margin-top: 100px;
+}
+
 .trip-image{
   max-width: 250px;
 }
