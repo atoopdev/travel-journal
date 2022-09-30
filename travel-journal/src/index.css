@@ -5,6 +5,8 @@
 body{
   margin:0;
   padding: 0;
+  color: #2B283A;
+  font-size: 16px;
 }
 
 img{
@@ -26,4 +28,9 @@ header{
 
 .trip-image{
   max-width: 250px;
+}
+
+.location-link{
+  color:#918E9B;
+  font-size: .75rem;
 }
