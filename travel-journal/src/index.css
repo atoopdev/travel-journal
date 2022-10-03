@@ -40,19 +40,24 @@ header{
   margin-top:40px;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr, 2fr, 1fr, 2fr;
-  grid-gap: 0px 30px;
+  grid-template-rows: 1em, 1.5em, 1em, 2em;
+  grid-gap: 0px 20px;
   }
 
   .trip-title,
   .trip-location,
+  .location-link,
   .trip-date,
   .trip-description{
     grid-column: 2;
   }
 
+  .location{
+    display: flex;
+    align-items: center;
+  }
   .trip-location{
-    grid-row: 1;
+    grid-row: 1/2;
     font-size:1.25rem;
     font-weight:400;
     text-transform: uppercase;
@@ -60,17 +65,17 @@ header{
 
   .trip-title{
     font-size:2rem;
-    grid-row:2;
+    grid-row:2/3;
   }
 
   .trip-date{
-    grid-row:3;
+    grid-row:3/4;
   }
   .trip-description{
     grid-row:4/5;
   }
 .trip-image{
-  max-width: 250px;
+  max-width: 150px;
   border-radius: 10px;
   grid-column: 1;
   grid-row: 1/5;
@@ -79,4 +84,7 @@ header{
 .location-link{
   color:#918E9B;
   font-size: .75rem;
+  text-transform: uppercase;
+  grid-row:1;
+  
 }

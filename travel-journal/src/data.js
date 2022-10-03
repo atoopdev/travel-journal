@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Volcanos National Park",
-        location:"Big Island, Hawaii, USA",
+        location:"USA",
         googleMapsUrl:"https://goo.gl/maps/dPk4XiWD7roXFjhx8",
         visitDate:"June 2010",
         description:"Unique destination to spot live lava flows, lava tubes & glowing craters is popular with tourists.",
@@ -14,7 +14,7 @@ export default [
     {
         id: 2,
         title: "Panda Breeding center",
-        location: "Chengdu, China",
+        location: "China",
         googleMapsUrl:"https://goo.gl/maps/FmjbC4LwUwyDLLGp6",
         visitDate:"July 2006",
         description:"Giant Panda conservation facility allowing visitors to observe pandas & other endangered animals.",
@@ -25,7 +25,7 @@ export default [
     {
         id: 3,
         title: "Eiffel Tower",
-        location: "Jinshanling Great Wall, China",
+        location: "France",
         googleMapsUrl:"https://goo.gl/maps/2Fey2HTc1FdVzm5g6",
         visitDate:"July 2008",
         description:"Gustave Eiffel's iconic, wrought-iron 1889 tower, with steps and elevators to observation decks.",
