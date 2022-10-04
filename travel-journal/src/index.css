@@ -61,6 +61,7 @@ header{
   .location-icon{
     width: 10px;
     margin-right: 5px;
+    /* via https://codepen.io/sosuke/pen/Pjoqqp */
     filter: invert(54%) sepia(11%) saturate(2737%) hue-rotate(313deg) brightness(91%) contrast(113%);
   }
   .location-link{
