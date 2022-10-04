@@ -56,6 +56,20 @@ header{
     display: flex;
     align-items: center;
   }
+
+  .location-icon{
+    width: 10px;
+    margin-right: 5px;
+    filter: invert(54%) sepia(11%) saturate(2737%) hue-rotate(313deg) brightness(91%) contrast(113%);
+  }
+  .location-link{
+    color:#918E9B;
+    font-size: .75rem;
+    text-transform:capitalize;
+    grid-row:1;
+    
+  }
+  
   .trip-location{
     grid-row: 1/2;
     font-size:1rem;
@@ -80,17 +94,11 @@ header{
     grid-row:4/5;
     font-size:.75rem;
   }
-.trip-image{
-  max-width: 150px;
-  border-radius: 10px;
-  grid-column: 1;
-  grid-row: 1/5;
-}
 
-.location-link{
-  color:#918E9B;
-  font-size: .75rem;
-  text-transform:capitalize;
-  grid-row:1;
-  
-}
+  .trip-image{
+    max-width: 150px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1/5;
+  }
+

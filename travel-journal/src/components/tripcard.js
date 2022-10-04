@@ -1,4 +1,5 @@
 import React from "react"
+import MapIcon from "../images/map-pin-solid.svg"
 
 export default function TripCard(props){
     let image = props.trip.imageURL
@@ -7,6 +8,7 @@ export default function TripCard(props){
     <img className="trip-image" src={props.trip.imageURL} alt={props.trip.title}></img>
 
     <div className="location">
+    <img src={MapIcon} className="location-icon" alt="map pin icon"></img>
     <h2 className="trip-location">{props.trip.location}</h2><a href={props.trip.googleMapsUrl}className="location-link">View on Google Maps</a></div>
 
     <span className="trip-date">{props.trip.visitDate}</span>
