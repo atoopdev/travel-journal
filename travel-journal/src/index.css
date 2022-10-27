@@ -21,7 +21,8 @@ h1, h2, h3, p{
 }
 
 #root{
-  width: 550px;
+  max-width: 1140px;
+  min-width: 550px;
   margin: 0 auto;
 }
 header{

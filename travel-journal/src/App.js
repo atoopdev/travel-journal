@@ -4,21 +4,22 @@ import Header from "./components/header"
 
 
 function App() {
-  // get data out of file and into object
 
+  // get data out of file and into object
   const tripElements = TravelData.map(
-    (trip) =>{
-      // return <TripCard title={trip.title}/>
+    (trip) => {
       return <TripCard key={trip.id} trip={trip} />
     }
-  )
-console.log(tripElements)
+  );
+  
+  console.log(tripElements);
 
   return (
     <div>
-    <Header />
-    <div className="trip-listing">{tripElements}
-    </div>
+      <Header />
+      <div className="trip-listing">
+        {tripElements}
+      </div>
     </div>
   );
 }
